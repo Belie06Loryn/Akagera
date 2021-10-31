@@ -69,401 +69,280 @@
 													in full,one form per group</small></h3>
 										</div>
 										<div class="panel-body">
-											<form method="post" action="sendrequest" class="multiForms"
-												enctype="multipart/form-data" en>
-												
+											<form id="myform" action="" method="post">
 												<div class="row">
-													<div class="col-md-12 pr-1">
+													<div class="col-xs-3 col-sm-3 col-md-3">
 														<div class="form-group">
-															<div class="row">
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group">
-																		<label>Name Group Leader/Tour company</label>
-																		<input type="text" class="form-control input-md"
-																			name="company" required>
-																	</div>
-																</div>
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group">
-																		<label>Phone number while in the park</label>
-																		<input type="number"
-																			class="form-control input-md" name="phone"
-																			required>
-																	</div>
-																</div>
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group" style="margin-top: 18px;">
-																		<label>Email address<br></label>
-																		<input type="email"
-																			class="form-control input-md" name="email"
-																			required>
-																	</div>
-																</div>
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group" style="margin-top: 18px;">
-																		<label>Entry date<br></label>
-																		<input type="date" class="form-control input-md"
-																			name="entrydate" required>
-																	</div>
-																</div>
-															</div>
-
+															<label>Name Group Leader/Tour company</label>
+															<input type="text" class="form-control input-md"
+																name="company" required>
 														</div>
 													</div>
-													<div class="col-md-12 px-1">
+													<div class="col-xs-3 col-sm-3 col-md-3">
 														<div class="form-group">
-															<div class="row">
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group">
-																		<label>Number of people</label>
-																		<input type="number"
-																			class="form-control input-md"
-																			name="peoplenumber" required>
-																	</div>
-																</div>
-																<div class="col-xs-4 col-sm-4 col-md-4">
-																	<div class="form-group">
-																		<label>Total number of calendar days</label>
-																		<input type="number"
-																			class="form-control input-md"
-																			name="calenderdays" required>
-																	</div>
-																</div>
-																<div class="col-xs-2 col-sm-2 col-md-2">
-																	<div class="form-group">
-																		<label>Exit Gate</label>
-																		<input type="text" class="form-control input-md"
-																			name="exitgate" required>
-																	</div>
-																</div>
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group">
-																		<label>Accommodation</label>
-																		<input type="text" class="form-control input-md"
-																			name="accommodation" required>
-																	</div>
-																</div>
-															</div>
+															<label>Phone number while in the park</label>
+															<input type="number" class="form-control input-md"
+																name="phone" required>
 														</div>
 													</div>
-													<div class="col-md-12 px-1">
+													<div class="col-xs-3 col-sm-3 col-md-3">
+														<div class="form-group" style="margin-top: 18px;">
+															<label>Email address<br></label>
+															<input type="email" class="form-control input-md"
+																name="email" required>
+														</div>
+													</div>
+													<div class="col-xs-3 col-sm-3 col-md-3">
+														<div class="form-group" style="margin-top: 18px;">
+															<label>Entry date<br></label>
+															<input type="date" class="form-control input-md"
+																name="entrydate" required>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-3 col-sm-3 col-md-3">
 														<div class="form-group">
-															<div class="row">
-																<div class="col-xs-2 col-sm-2 col-md-2">
-																	<div class="form-group">
-																		<label>Total payment</label>
-																		<input type="text" class="form-control input-md"
-																			name="payment" required>
-																	</div>
-																</div>
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group">
-																		<label>Receipt number</label>
-																		<input type="text" class="form-control input-md"
-																			name="receiptnumber" required>
-																	</div>
-																</div>
-																<div class="col-xs-3 col-sm-3 col-md-3">
-																	<div class="form-group">
-																		<label>Number of vehicle</label>
-																		<input type="text" class="form-control input-md"
-																			name="numbervehicle" required>
-																	</div>
-																</div>
-																<div class="col-xs-2 col-sm-2 col-md-2">
-																	<div class="form-group">
-																		<label>Type of vehicle</label>
-																		<input type="text" class="form-control input-md"
-																			name="typevehicle" required>
-																	</div>
-																</div>
-																<div class="col-xs-2 col-sm-2 col-md-2">
-																	<div class="form-group">
-																		<label>Registration</label>
-																		<input type="text" class="form-control input-md"
-																			name="registration" required>
-																	</div>
-																</div>
-															</div>
+															<label>Number of people</label>
+															<input type="number" class="form-control input-md"
+																name="peoplenumber" required>
 														</div>
-
-														<div class="col-md-12 px-1">
-															<div class="form-group">
+													</div>
+													<div class="col-xs-4 col-sm-4 col-md-4">
+														<div class="form-group">
+															<label>Total number of calendar days</label>
+															<input type="number" class="form-control input-md"
+																name="calenderdays" required>
+														</div>
+													</div>
+													<div class="col-xs-2 col-sm-2 col-md-2">
+														<div class="form-group">
+															<label>Exit Gate</label>
+															<input type="text" class="form-control input-md"
+																name="exitgate" required>
+														</div>
+													</div>
+													<div class="col-xs-3 col-sm-3 col-md-3">
+														<div class="form-group">
+															<label>Accommodation</label>
+															<input type="text" class="form-control input-md"
+																name="accommodation" required>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-2 col-sm-2 col-md-2">
+														<div class="form-group">
+															<label>Total payment</label>
+															<input type="text" class="form-control input-md"
+																name="payment" required>
+														</div>
+													</div>
+													<div class="col-xs-3 col-sm-3 col-md-3">
+														<div class="form-group">
+															<label>Receipt number</label>
+															<input type="text" class="form-control input-md"
+																name="receiptnumber" required>
+														</div>
+													</div>
+													<div class="col-xs-3 col-sm-3 col-md-3">
+														<div class="form-group">
+															<label>Number of vehicle</label>
+															<input type="text" class="form-control input-md"
+																name="numbervehicle" required>
+														</div>
+													</div>
+													<div class="col-xs-2 col-sm-2 col-md-2">
+														<div class="form-group">
+															<label>Type of vehicle</label>
+															<input type="text" class="form-control input-md"
+																name="typevehicle" required>
+														</div>
+													</div>
+													<div class="col-xs-2 col-sm-2 col-md-2">
+														<div class="form-group">
+															<label>Registration</label>
+															<input type="text" class="form-control input-md"
+																name="registration" required>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12">
+														<div class="table-wrapper">
+															<div class="table-title">
 																<div class="row">
-																	<div class="col-xs-12 col-sm-12 col-md-12">
-																		<div class="table-wrapper">
-																			<div class="table-title">
-																				<div class="row">
-																					<div class="col-sm-8">
-																						<p>Please complete individual
-																							visitor details
-																						</p>
-																					</div>
-																					<div class="col-sm-4">
-																						<button type="button"
-																							class="btn btn-info add-new"><i
-																								class="fa fa-plus"></i>
-																							Add New</button>
-																					</div>
-																				</div>
-																			</div>
-																			<table class="table table-bordered">
-																				<thead>
-																					<tr>
-																						<th>Names</th>
-																						<th>Nationality</th>
-																						<th>Country of Residence</th>
-																						<th>Sex M/F</th>
-																						<th>Age</th>
-																						<th>Covid-19 test result</th>
-																						<th>Amount</th>
-																						<!--<th>Entry fee</th>
-                                                                        <th>Guide</th>
-                                                                        <th>Camping</th>
-                                                                        <th>Fishing</th>
-                                                                        <th>Boat Ride</th>
-                                                                        <th>Vehicle hire</th>
-                                                                        <th>Night safari</th>
-                                                                        <th>Other</th>-->
-																					</tr>
-																				</thead>
-																				<tbody>
-																					<tr class="highlighted">
-																						<td>Examples</td>
-																						<td>Rwandaise</td>
-																						<td>Rwanda</td>
-																						<td>M</td>
-																						<td>23</td>
-																						<td>DL23670</td>
-																						<td>45000</td>
-																						<td>
-																							<a class="add" title="Add"
-																								data-toggle="tooltip"><i
-																									class="material-icons"></i></a>
-																							<a class="edit" title="Edit"
-																								data-toggle="tooltip"><i
-																									class="material-icons"></i></a>
-																							<a class="delete"
-																								title="Delete"
-																								data-toggle="tooltip"><i
-																									class="material-icons"></i></a>
-																						</td>
-																					</tr>
-																				</tbody>
-																			</table>
-																		</div>
+																	<div class="col-sm-8">
+																		<p>Please complete individual visitor details
+																		</p>
+																	</div>
+																	<div class="col-sm-4">
+																		<button type="button"
+																			class="btn btn-info add-new"><i
+																				class="fa fa-plus"></i> Add New</button>
 																	</div>
 																</div>
 															</div>
+															<table class="table table-bordered">
+																<thead>
+																	<tr>
+																		<th>Names</th>
+																		<th>Nationality</th>
+																		<th>Country of Residence</th>
+																		<th>Sex M/F</th>
+																		<th>Age</th>
+																		<th>Covid-19 test result</th>
+																		<th>Amount</th>
+																		<!--<th>Entry fee</th>
+																<th>Guide</th>
+																<th>Camping</th>
+																<th>Fishing</th>
+																<th>Boat Ride</th>
+																<th>Vehicle hire</th>
+																<th>Night safari</th>
+																<th>Other</th>-->
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr class="highlighted">
+																		<td>Examples</td>
+																		<td>Rwandaise</td>
+																		<td>Rwanda</td>
+																		<td>M</td>
+																		<td>23</td>
+																		<td>DL23670</td>
+																		<td>45000</td>
+																		<td>
+																			<a class="add" title="Add"
+																				data-toggle="tooltip"><i
+																					class="material-icons"></i></a>
+																			<a class="edit" title="Edit"
+																				data-toggle="tooltip"><i
+																					class="material-icons"></i></a>
+																			<a class="delete" title="Delete"
+																				data-toggle="tooltip"><i
+																					class="material-icons"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
 														</div>
-														<div class="col-md-12 px-1">
-															<div class="form-group">
-																<div class="row">
-																	<div class="col-xs-1 col-sm-1 col-md-1"></div>
-																	<div class="col-xs-11 col-sm-11 col-md-11">
-																		<h5 id="agree" style="cursor: pointer;">RELEASE,
-																			ASSUMPTION OF
-																			RISK AND INDEMNITY AGREEMENT</h5>
-																		<div class="row">
-																			<div class="col-xs-1 col-sm-1 col-md-1">
-																			</div>
-																			<div class="col-xs-10 col-sm-10 col-md-10"
-																				id="privancy">
-																				<h6>PLEASE READ CAREFULLY – ALL VISITORS
-																					MUST AGREE
-																					BEFORE ENTERING THE PARK</h6>
-																				<p> I, the undersigned, acknowledge
-																					that, directly or
-																					indirectly, I have requested that I
-																					or the minor
-																					identified below be allowed to
-																					participate in
-																					certain activities and allowed to
-																					utilized certain
-																					services provided at Akagera
-																					National Park in the
-																					Republic of Rwanda by Akagera
-																					Management Company.
-																				</p>
-																				<p>I acknowledge that Akagera Management
-																					Company may
-																					have been requested to arrange for
-																					me or the minor
-																					identified below to participate in
-																					activities or
-																					utilize services provided by other
-																					persons,
-																					businesses, or entities. I
-																					acknowledge that Akagera
-																					Management Company has made no
-																					representation
-																					whatsoever as to the safety or
-																					quality of those
-																					activities or services, but has only
-																					made
-																					arrangements for my or the minor’s
-																					participation in
-																					those activities or use of those
-																					services as an
-																					accommodation to me at my request.
-																				</p>
-																				<p>I understand and accept that I, or
-																					the minor
-																					identified below, am about to engage
-																					in activities
-																					that pose risks of physical injury
-																					and/or death,
-																					disease or illness and/or damage to
-																					or loss of
-																					personal property, as the result of
-																					contact with
-																					plants and protected animals, in
-																					which case, I, or
-																					the minor identified below,shall be
-																					entitled to
-																					compensation in accordance with
-																					relevant
-																					laws;remoteness of adequate medical
-																					facilities;
-																					travel by air, train, automobile,
-																					truck, bus, horse,
-																					bicycle, ATV, and/or other
-																					conveyance while moving
-																					to or from any activity site or
-																					participating in any
-																					activity, including over and through
-																					rough terrain
-																					and on public or private roads; use
-																					of other
-																					facilities; or any other related
-																					activity or
-																					services.</p>
-																				<p>In consideration of and as part
-																					payment for my right
-																					or that of the minor identified
-																					below to participate
-																					in such activities and utilize such
-																					services, I
-																					PERSONALLY do hereby to the greatest
-																					extent
-																					permitted by Law ASSUME all of the
-																					reasonably
-																					related and foreseeable risks,
-																					whether or not
-																					specifically identified herein, of
-																					all the
-																					activities and services which I or
-																					the minor
-																					identified below participate in or
-																					use. I RELEASE
-																					Akagera Management Company from any
-																					and all
-																					liability, including but not limited
-																					to liability
-																					arising from Akagera Management
-																					Company’s
-																					negligence. Furthermore, I will
-																					INDEMNIFY and hold
-																					Akagera Management Company harmless
-																					from any and all
-																					liability, claims, and demands of
-																					every kind and
-																					nature whatsoever,including for
-																					personal injury,
-																					wrongful death, and property damage,
-																					which I or the
-																					minor identified below may ever
-																					have, arising
-																					directly or indirectly from
-																					participation in any and
-																					all such activities or use of such
-																					services. This
-																					includes Akagera Management
-																					Company’s attorney fees
-																					and other costs and expenses
-																					associated with defense
-																					of any such claims and/or the cost
-																					of any medical or
-																					other expenses incurred for my or
-																					such minor’s
-																					benefit.</p>
-																				<p>I agree that the exclusive venue for
-																					any suit or
-																					claim against Akagera Management
-																					Company for any
-																					reason whatsoever shall be the
-																					Courts of law of the
-																					Republic of Rwanda. I consent to the
-																					jurisdiction of
-																					such Courts as to any action against
-																					me to enforce
-																					this Agreement; agree that this
-																					Agreement is to be
-																					enforced in accordance with the Law
-																					of Rwanda; and
-																					agree that if any part of this
-																					agreement is found to
-																					be invalid that all other portions
-																					shall be fully
-																					enforceable.</p>
-																				<p>No representations contrary to the
-																					above have been
-																					made to me or, if made, such
-																					representations have
-																					not been relied upon by me in any
-																					way, have not
-																					affected in any way my decision to
-																					participate or
-																					allow the minor identified below to
-																					participate in
-																					any activity or utilize any service,
-																					and have not
-																					affected in any way my intention to
-																					release, assume
-																					risk or indemnify the Akagera
-																					Management Company as
-																					stated above.</p>
-																			</div>
-																			<div class="col-xs-1 col-sm-1 col-md-1">
-																			</div>
-																		</div>
-																		<p style="color: black;font-size: 15px;"> <input
-																				type="checkbox" name="agree"
-																				id="agree_checkbox"
-																				ng-model="chkvalue">I
-																			have read and understood the park rules and
-																			regulations and
-																			agree that I, and the members of this
-																			group,<br> will abide
-																			by them and understand that failure to do so
-																			will result in
-																			an on the spot fine of up to $150</br></p>
-																		<div style="display:none; color:red"
-																			id="agree_chk_error">
-																			Can't proceed as you didn't agree to the
-																			terms!
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-1 col-sm-1 col-md-1"></div>
+													<div class="col-xs-11 col-sm-11 col-md-11">
+														<h5 id="agree" style="cursor: pointer;">RELEASE, ASSUMPTION OF
+															RISK AND INDEMNITY AGREEMENT</h5>
 														<div class="row">
-															<div class="col-md-12">
-																<div class="form-group">
-																	<button class="form-control"
-																		style="background: #7AAA7A !important ">
-																		Register</button>
-																</div>
+															<div class="col-xs-1 col-sm-1 col-md-1"></div>
+															<div class="col-xs-10 col-sm-10 col-md-10" id="privancy">
+																<h6>PLEASE READ CAREFULLY – ALL VISITORS MUST AGREE
+																	BEFORE ENTERING THE PARK</h6>
+																<p> I, the undersigned, acknowledge that, directly or
+																	indirectly, I have requested that I or the minor
+																	identified below be allowed to participate in
+																	certain activities and allowed to utilized certain
+																	services provided at Akagera National Park in the
+																	Republic of Rwanda by Akagera Management Company.
+																</p>
+																<p>I acknowledge that Akagera Management Company may
+																	have been requested to arrange for me or the minor
+																	identified below to participate in activities or
+																	utilize services provided by other persons,
+																	businesses, or entities. I acknowledge that Akagera
+																	Management Company has made no representation
+																	whatsoever as to the safety or quality of those
+																	activities or services, but has only made
+																	arrangements for my or the minor’s participation in
+																	those activities or use of those services as an
+																	accommodation to me at my request.</p>
+																<p>I understand and accept that I, or the minor
+																	identified below, am about to engage in activities
+																	that pose risks of physical injury and/or death,
+																	disease or illness and/or damage to or loss of
+																	personal property, as the result of contact with
+																	plants and protected animals, in which case, I, or
+																	the minor identified below,shall be entitled to
+																	compensation in accordance with relevant
+																	laws;remoteness of adequate medical facilities;
+																	travel by air, train, automobile, truck, bus, horse,
+																	bicycle, ATV, and/or other conveyance while moving
+																	to or from any activity site or participating in any
+																	activity, including over and through rough terrain
+																	and on public or private roads; use of other
+																	facilities; or any other related activity or
+																	services.</p>
+																<p>In consideration of and as part payment for my right
+																	or that of the minor identified below to participate
+																	in such activities and utilize such services, I
+																	PERSONALLY do hereby to the greatest extent
+																	permitted by Law ASSUME all of the reasonably
+																	related and foreseeable risks, whether or not
+																	specifically identified herein, of all the
+																	activities and services which I or the minor
+																	identified below participate in or use. I RELEASE
+																	Akagera Management Company from any and all
+																	liability, including but not limited to liability
+																	arising from Akagera Management Company’s
+																	negligence. Furthermore, I will INDEMNIFY and hold
+																	Akagera Management Company harmless from any and all
+																	liability, claims, and demands of every kind and
+																	nature whatsoever,including for personal injury,
+																	wrongful death, and property damage, which I or the
+																	minor identified below may ever have, arising
+																	directly or indirectly from participation in any and
+																	all such activities or use of such services. This
+																	includes Akagera Management Company’s attorney fees
+																	and other costs and expenses associated with defense
+																	of any such claims and/or the cost of any medical or
+																	other expenses incurred for my or such minor’s
+																	benefit.</p>
+																<p>I agree that the exclusive venue for any suit or
+																	claim against Akagera Management Company for any
+																	reason whatsoever shall be the Courts of law of the
+																	Republic of Rwanda. I consent to the jurisdiction of
+																	such Courts as to any action against me to enforce
+																	this Agreement; agree that this Agreement is to be
+																	enforced in accordance with the Law of Rwanda; and
+																	agree that if any part of this agreement is found to
+																	be invalid that all other portions shall be fully
+																	enforceable.</p>
+																<p>No representations contrary to the above have been
+																	made to me or, if made, such representations have
+																	not been relied upon by me in any way, have not
+																	affected in any way my decision to participate or
+																	allow the minor identified below to participate in
+																	any activity or utilize any service, and have not
+																	affected in any way my intention to release, assume
+																	risk or indemnify the Akagera Management Company as
+																	stated above.</p>
 															</div>
+															<div class="col-xs-1 col-sm-1 col-md-1"></div>
 														</div>
+														<p style="color: black;font-size: 15px;"> <input type="checkbox"
+																name="agree" id="agree_checkbox" ng-model="chkvalue">I
+															have read and understood the park rules and regulations and
+															agree that I, and the members of this group,<br> will abide
+															by them and understand that failure to do so will result in
+															an on the spot fine of up to $150</br></p>
+														<div style="display:none; color:red" id="agree_chk_error">
+															Can't proceed as you didn't agree to the terms!
+														</div>
+													</div>
+												</div>
+												<button type="submit" value="Submit"
+													class="btn btn-skin btn-block btn-lg">Submit</button>
 											</form>
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-1"></div>
 							</div>
 						</div>
+						<div class="col-lg-1"></div>
 					</div>
+				</div>
+			</div>
 		</section>
 
 		<footer>
