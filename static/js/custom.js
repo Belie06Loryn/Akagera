@@ -251,12 +251,12 @@ $(document).ready(function(){
 		var index = $("table tbody tr:last-child").index();
         var row = '<tr>' +
             '<td><input type="text" class="form-control" name="name" id="name"></td>' +
-            '<td><input type="text" class="form-control" name="nationality" id="nationality"></td>' +
-            '<td><input type="text" class="form-control" name="residency" id="residency"></td>' +
-            '<td><input type="text" class="form-control" name="sex" id="sex"></td>' +
-            '<td><input type="text" class="form-control" name="age" id="age"></td>' +
-            '<td><input type="text" class="form-control" name="covid" id="covid"></td>' +
-            '<td><input type="text" class="form-control" name="amount" id="amount"></td>' +
+            '<td><input type="text" class="form-control" name="nationality[]" id="nationality"></td>' +
+            '<td><input type="text" class="form-control" name="residency[]" id="residency"></td>' +
+            '<td><input type="text" class="form-control" name="sex[]" id="sex"></td>' +
+            '<td><input type="text" class="form-control" name="age[]" id="age"></td>' +
+            '<td><input type="text" class="form-control" name="covid[]" id="covid"></td>' +
+            '<td><input type="text" class="form-control" name="amount[]" id="amount"></td>' +
 			'<td>' + actions + '</td>' +
         '</tr>';
     	$("table").append(row);		
